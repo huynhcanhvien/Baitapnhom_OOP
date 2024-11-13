@@ -9,7 +9,7 @@ class Sach : public CTKH {
 protected:
     string type;
 public:
-    Sach(string = "");
+    Sach(string = "", Date, bool = false, string = "");
     Sach(const Sach&);
     ~Sach();
     friend istream& operator >>(istream& , Sach&);

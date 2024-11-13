@@ -10,7 +10,7 @@ protected:
     string name;
     int numOfAuthor;
 public:
-    BaiBao(string = "", int = 1);
+    BaiBao(string = "", Date, bool = false, string = "", int = 1);
     BaiBao(const BaiBao&);
     ~BaiBao();
     friend istream& operator >>(istream& , BaiBao&);
