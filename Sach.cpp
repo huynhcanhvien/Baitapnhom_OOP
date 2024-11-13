@@ -2,7 +2,7 @@
 #include <stdexcept>
 using namespace std;
 
-Sach::Sach(string id, Date d, bool place, string Ty) : CTKH(id,d,place), type(Ty){
+Sach::Sach(Date d, string id, bool place, string Ty) : CTKH(id,d,place), type(Ty){
     if(this->NXB.getYear()<1900){
         throw invalid_argument("Năm không hợp lệ trong constructor");
     }
