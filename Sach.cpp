@@ -24,7 +24,7 @@ istream& operator >>(istream& in, Sach& s){
     cout << "Nhập ID: "; in >> s.ID;
     cout << "Nhập ngày xuất bản: "; in >> s.NXB;
     cout << "Nhập khu vực xuất bản: "; in >> s.KhuVucXuatBan;
-    cout << "Loại sách: "; in >> s.name;
+    cout << "Loại sách: "; in >> s.type;
     return in;
 }
 
