@@ -4,8 +4,9 @@
 
 #include "LinkList_T.hpp"
 #include "CTKH.hpp"
-
-class LLKHCaNhan 
+#include "BaiBao.hpp"
+#include "Sach.hpp"
+class LLKHCaNhan
 {
     public:
         LLKHCaNhan();  // Constructor mac dinh
