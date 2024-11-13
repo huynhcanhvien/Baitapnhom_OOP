@@ -17,6 +17,7 @@ public:
     friend istream& operator >>(istream& , CTKH&);
     friend ostream& operator <<(ostream& , const CTKH&);
     virtual void change(string, Date, bool);
+    string getID();
 };
 
 #endif
