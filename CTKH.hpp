@@ -11,7 +11,7 @@ protected:
     Date NXB;
     bool KhuVucXuatBan;
 public:
-    CTKH(string = "", Date, bool = false);
+    CTKH(Date, string = "", bool = false);
     CTKH(const CTKH&);
     ~CTKH();
     friend istream& operator >>(istream& , CTKH&);
