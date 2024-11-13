@@ -2,7 +2,7 @@
 #include <stdexcept>
 using namespace std;
 
-BaiBao::BaiBao(string id, Date d, bool place, string Na, int Aut) : CTKH(id,d,place), name(Na), numOfAuthor(Aut){
+BaiBao::BaiBao(Date d, string id, bool place, string Na, int Aut) : CTKH(id,d,place), name(Na), numOfAuthor(Aut){
     if(this->NXB.getYear()<1900){
         throw invalid_argument("Năm không hợp lệ trong constructor");
     }
