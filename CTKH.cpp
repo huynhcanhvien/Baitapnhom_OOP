@@ -38,3 +38,7 @@ void CTKH::change(string id, Date d, bool place){
     this->NXB = d;
     this->KhuVucXuatBan = place;
 }
+
+string CTKH::getID(){
+    return this->ID;
+}
