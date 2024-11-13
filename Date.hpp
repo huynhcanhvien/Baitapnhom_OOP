@@ -14,7 +14,7 @@ private:
     int month;
     int year;
 public:
-    int getYear(){return this->year};
+    int getYear(){return this->year;}
     Date(int = 1, int = 1, int = 2024);
     Date(const Date&);
     friend istream& operator >>(istream& , Date&);
